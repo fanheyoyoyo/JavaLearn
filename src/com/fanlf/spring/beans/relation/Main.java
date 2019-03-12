@@ -1,10 +1,10 @@
-package com.fanlf.spring.relation;
+package com.fanlf.spring.beans.relation;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.fanlf.spring.autowire.Address;
-import com.fanlf.spring.autowire.Person;
+import com.fanlf.spring.beans.autowire.Address;
+import com.fanlf.spring.beans.autowire.Person;
 
 public class Main {
 	public static void main(String[] args) {

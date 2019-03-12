@@ -3,7 +3,7 @@ package com.fanlf.spring.beans;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.fanlf.spring.collections.Person;
+import com.fanlf.spring.beans.Person;
 
 public class Main {
 	public static void main(String[] args) {

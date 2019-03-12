@@ -5,15 +5,15 @@
 
 	<bean id="address" p:city="BeiJing" p:street="WuDaoKou" abstract="true"></bean>
 
-	<bean id="address2" class="com.fanlf.spring.autowire.Address"
+	<bean id="address2" class="com.fanlf.spring.beans.autowire.Address"
 		parent="address"></bean>
 	
 	<bean id="address3" parent="address2" p:street="DaZhongSi"></bean>
 	
-	<bean id="car" class="com.fanlf.spring.autowire.Car"
+	<bean id="car" class="com.fanlf.spring.beans.autowire.Car"
 		p:brand="Baoma" p:price="300000"></bean>
 	
-	<bean id="person" class="com.fanlf.spring.autowire.Person"
-		p:name="Tom" p:address1-ref="address2" depends-on="car"></bean>
+	<bean id="person" class="com.fanlf.spring.beans.autowire.Person"
+		p:name="Tom" p:address-ref="address2" depends-on="car"></bean>
 	
 </beans>

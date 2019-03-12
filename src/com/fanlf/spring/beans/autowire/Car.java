@@ -1,4 +1,4 @@
-package com.fanlf.spring.beans.spel;
+package com.fanlf.spring.beans.autowire;
 
 public class Car {
 	private String brand;

@@ -1,4 +1,4 @@
-package com.fanlf.spring.collections;
+package com.fanlf.spring.beans.collections;
 
 import java.util.Properties;
 

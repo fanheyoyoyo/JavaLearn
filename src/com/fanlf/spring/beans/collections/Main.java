@@ -1,4 +1,4 @@
-package com.fanlf.spring.collections;
+package com.fanlf.spring.beans.collections;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

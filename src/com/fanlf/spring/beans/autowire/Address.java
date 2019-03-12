@@ -1,4 +1,4 @@
-package com.fanlf.spring.beans.spel;
+package com.fanlf.spring.beans.autowire;
 
 public class Address {
 	private String city;
