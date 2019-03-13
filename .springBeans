@@ -12,6 +12,9 @@
 		<config>src/beans-relation.xml</config>
 		<config>src/beans-spel.xml</config>
 		<config>src/beans-cycle.xml</config>
+		<config>src/beans-factory.xml</config>
+		<config>src/beans-factoryBean.xml</config>
+		<config>src/beans-annotation.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
